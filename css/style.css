@@ -329,19 +329,19 @@ nav.show div.icon-close {
   transform: translate(6px, -7px);
 }
 .qualification_title {
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 .qualification_subtitle {
   font-weight: 200;
 }
 
 .qualification_calender {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 100;
 }
 
 .qualification_calender i {
-  font-size: 1em;
+  font-size: 0.75em;
   padding-right: 0.7rem;
   color: #ccc;
 }
