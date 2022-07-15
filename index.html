@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Portfólio | Gabriel Robertson</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">GR</a>
+
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Inicio</a></li>
+            <li><a class="title" href="#">Sobre mim</a></li>
+            <li><a class="title" href="#">Projetos</a></li>
+            <li><a class="title" href="#">Habilidades</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"><i class="fa-solid fa-bars"></i></div>
+        <div class="toggle icon-close"><i class="fa-solid fa-xmark"></i></div>
+      </nav>
+    </header>
+
+    <main>
+      <!--Home-->
+      <section class="section" id="home">
+        <div class="container">
+          <div class="img">
+            <img
+              src="img/gabriel_home.png"
+              alt="Foto do Gabriel (Programador do Site)"
+            />
+          </div>
+          <div class="text">
+            <h1 class="titles">Hi, I'am <span class="input"></span></h1>
+            <h2>Frontend developer</h2>
+            <p>
+              High level experience in web design and development knowledge,
+              producing quality work.
+            </p>
+
+            <div class="grup-btn">
+              <a
+                href="https://www.linkedin.com/in/gabriel-robertson-santos-de-castro-8a6b48149/"
+                class="btn"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i>Linkedin</a
+              >
+              <a
+                href="https://github.com/Gabrielrsc"
+                class="btn"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i>Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="text-header">
+            <h2>About Us</h2>
+            <h3>My introduction</h3>
+          </div>
+          <div class="img">
+            <img
+              src="img/gabriel3.jpg"
+              alt="Foto do Gabriel (Programador do Site)"
+            />
+          </div>
+          <div class="text">
+            <p>
+              Web developer, with extensie knowledge and yasrs of experience,
+              working in web technologie and Ui / Ux design, delivering quality
+              work Web developer, with extensie knowledge and yasrs of
+              experience, working in web technologie and Ui / Ux design,
+              delivering quality work
+            </p>
+
+            <a href="https://github.com/Gabrielrsc" class="btn" target="_blank"
+              >Download CV<i class="fa-solid fa-file-arrow-down"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="qualification" class="qualification section">
+        <div class="text-header">
+          <h2>Qualification</h2>
+          <h3>My personal journey</h3>
+        </div>
+        <div class="qualification_container">
+          <div class="qualification_tabs">
+            <div
+              class="qualification_button button--flex qualification_active"
+              data-target="#education"
+            >
+              <i class="fa-solid fa-graduation-cap qualification_icon"></i
+              >Education
+            </div>
+
+            <div class="qualification_button button--flex" data-target="#work">
+              <i class="fa-solid fa-briefcase qualification_icon"></i>
+              Work
+            </div>
+          </div>
+        </div>
+
+        <div class="qualification_sections container">
+          <!--Qualification content 1-->
+          <div
+            class="qualification_content qualification_active"
+            data-content
+            id="education"
+          >
+            <!--Qualification  1-->
+
+            <div class="qualification_data">
+              <div>
+                <h3 class="qualification_title">Técnico em Informatica</h3>
+                <span class="qualification_subtitle"
+                  >Pronatec - Santos Dumont-MG</span
+                >
+                <div class="qualification_calender">
+                  <i class="fa-solid fa-calendar-days"></i>2009 - 2014
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification_rouder"></span>
+                <span class="qualification_line"></span>
+              </div>
+            </div>
+
+            <!--Qualification  2-->
+            <div class="qualification_data">
+              <div></div>
+              <div>
+                <span class="qualification_rouder"></span>
+                <span class="qualification_line"></span>
+              </div>
+              <div>
+                <h3 class="qualification_title">
+                  Análise e Desenvolvimento de Sistema
+                </h3>
+                <span class="qualification_subtitle">Estácio</span>
+                <div class="qualification_calender">
+                  <i class="fa-solid fa-calendar-days"></i>2022 - 2024
+                </div>
+              </div>
+            </div>
+
+            <!--Qualification  3-->
+            <div class="qualification_data">
+              <div>
+                <h3 class="qualification_title">
+                  Desenvolvimento Web Completo
+                </h3>
+                <span class="qualification_subtitle">Udemy</span>
+                <div class="qualification_calender">
+                  <i class="fa-solid fa-calendar-days"></i>2022 - 2022
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification_rouder"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="qualification_content" data-content id="work">
+            <!--Qualification  1-->
+            <div class="qualification_data">
+              <div>
+                <h3 class="qualification_title">Mercedes-Bez</h3>
+                <span class="qualification_subtitle">Jovem Aprendiz</span>
+                <div class="qualification_calender">
+                  <i class="fa-solid fa-calendar-days"></i>2017 - 2018
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification_rouder"></span>
+                <span class="qualification_line"></span>
+              </div>
+            </div>
+            <!--Qualification  2-->
+            <div class="qualification_data">
+              <div></div>
+              <div>
+                <span class="qualification_rouder"></span>
+              </div>
+              <div>
+                <h3 class="qualification_title">Mercedes Benz</h3>
+                <span class="qualification_subtitle"
+                  >Operador de Produção | Pintor</span
+                >
+                <div class="qualification_calender">
+                  <i class="fa-solid fa-calendar-days"></i>2018 - Preset
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Main-->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('.input', {
+        strings: ['Gabriel Robertson.'],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop: true
+      })
+    </script>
+  </body>
+</html>
